@@ -13,13 +13,62 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+  <script src="http://code.jquery.com/jquery.js"></script>
 </head>
-<body>
+<body style="background-color: #17252A;">
   <header>
-
+    <h1 style="color: rgb(0, 225, 225); background-color: rgb(0, 128, 128)">Registration</h1>
   </header>
 
+
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span style="float:left;"class="glyphicon glyphicon-send" aria-hidden="true"></span>
+          <h1>Header</h1>
+        </div>
+        <div class="modal-body">
+          <label for="fName" style="color: rgb(0, 128, 128);">
+            Name:
+            <input id="fName"
+            type="text" placeholder="First Name"
+            required name="FNAME"/>
+          </label>
+
+          <label for="lName">
+            Last Name:
+            <input id="lName"
+            type="text" placeholder="Last Name"
+            required name="LNAME"/>
+          </label>
+
+          <label for="Email">
+            Email:
+            <input id="Email"
+            type="email" placeholder="Email"
+            required name="EMAIL"/>
+          </label>
+
+          <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Dropdown
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 
   <footer>
 
