@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 
 
 
@@ -14,23 +15,81 @@
 
  <body>
 
+
+   <div class="dropdown">
+  <a id="dLabel" data-target="1" href="purchase.html" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    Ticket Purchase
+    <span class="caret"></span>
+  </a>
+
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+  </ul>
+</div>
+
    <h1>Welcome to the United States of America!</h1>
+
+
+   <script src="js/bootstrap.min.js"></script>
 
    <section class="col1">
 
    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque vivamus, porttitor at rhoncus ut montes per hac viverra nostra mus, mauris sodales sem vel posuere nulla placerat conubia. Consequat posuere purus velit metus phasellus feugiat, egestas mollis aliquet aenean convallis. Mattis quisque primis natoque penatibus leo inceptos cursus sagittis suscipit per, nostra sapien ultrices tempor justo velit pellentesque habitant enim pharetra, accumsan senectus curabitur ullamcorper hac nulla curae consequat habitasse.</p>
 
+
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+       <li data-target="#nycity.png" data-slide-to="0" class="active"></li>
+       <li data-target="#boston.jpeg" data-slide-to="1"></li>
+       <li data-target="#chicago.png" data-slide-to="2"></li>
+     </ol>
+
+     <!-- Wrapper for slides -->
+     <div class="carousel-inner" role="listbox">
+       <div class="item active">
+         <img src="nycity.png" alt="NewYork">
+         <div class="carousel-caption">
+           New York
+         </div>
+       </div>
+       <div class="item">
+         <img src="boston.png" alt="Boston">
+         <div class="carousel-caption">
+        Boston
+         </div>
+       </div>
+       <div class="item">
+         <img src="chicago.png" alt="chichago">
+         <div class="carousel-caption">
+           Chicago
+         </div>
+     </div>
+</div>
+     <!-- Controls -->
+     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+       <span class="sr-only">Previous</span>
+     </a>
+     <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+       <span class="sr-only">Next</span>
+     </a>
+   </div>
+
    </section>
 
 <section class="col2">
-<div>
     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit scelerisque vivamus, porttitor at rhoncus ut montes per hac viverra nostra mus, mauris sodales sem vel posuere nulla placerat conubia. Consequat posuere purus velit metus phasellus feugiat, egestas mollis aliquet aenean convallis. Mattis quisque primis natoque penatibus leo inceptos cursus sagittis suscipit per, nostra sapien ultrices tempor justo velit pellentesque habitant enim pharetra, accumsan senectus curabitur ullamcorper hac nulla curae consequat habitasse.</p>
 
-       <a class="btn btn-default" href="#" role="button">Buy your tickets here!</a>
-
-
+       <a class="btn btn-default" href="purchase.html" role="button">Buy your tickets here!</a>
 </section>
-  
+
+<div class="java">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div>
  </body>
 
  </html>
