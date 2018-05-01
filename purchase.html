@@ -5,99 +5,83 @@
 
   <title>Registration</title>
 
+  <script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+	  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat:300,600" rel="stylesheet">
+ <!-- Latest compiled and minified JavaScript -->
+	
+ 
+	  <link rel="stylesheet" href="styles.css">
   
 </head>
 <body>
   
   <header>
-    <h1>Registration</h1>
+    <h1>Find Your Destination</h1>
   </header>
+
 
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <span style="float:left;"class="glyphicon glyphicon-send" aria-hidden="true"></span>
-          <h1>Header</h1>
+          <span style="float:left;"class="glyphicon glyphicon-send"
+		  aria-hidden="true"></span>
+          <h1>Registration</h1>
         </div>
         <div class="modal-body">
           <div class="input-group" style="padding: 0px 0px 5px 0px">
-			      <span class="input-group-addon" id="basic-addon1">First Name</span>
-			      <input type="text" class="form-control" aria-describedby="basic-addon1">
-		      </div>
+			<span class="input-group-addon" id="basic-addon1">First Name</span>
+			<input type="text" class="form-control" aria-describedby="basic-addon1">
+		  </div>
 
           <div class="input-group" style="padding: 0px 0px 5px 0px">
-			      <span class="input-group-addon" id="basic-addon1">Last Name</span>
-			      <input type="text" class="form-control" aria-describedby="basic-addon1">
-		      </div>
+			<span class="input-group-addon" id="basic-addon1">Last Name</span>
+			<input type="text" class="form-control" aria-describedby="basic-addon1">
+		  </div>
 
-		      <div class="input-group" style="padding: 0px 0px 5px 0px">
-			      <span class="input-group-addon" id="basic-addon1">@</span>
-			      <input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" required name="EMAIL">
-		      </div>
+		  <div class="input-group" style="padding: 0px 0px 5px 0px">
+			<span class="input-group-addon" id="basic-addon1">@</span>
+			<input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1" required name="EMAIL">
+		  </div>
 		
-		
-			    <div class="input-group" style="width: 25%">
-			      <span class="input-group-addon">
-				    <input type="checkbox" aria-label="...">
-			      </span>
-			      <span class="input-group-addon" id="basic-addon1" style="text-align: left">I have varified my email.</span>
-			    </div><!-- /input-group -->
 
-          
-      <!--<div class="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button"
-             id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" 
-             aria-expanded="true">
-              Dropdown
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="#">action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </div>
-
-          <div class="dropup">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropup
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            </ul>
-          </div>-->
+		<div class="input-group" style="width: 25%">
+		  <span class="input-group-addon">
+			<input type="checkbox" aria-label="...">
+		  </span>
+		  <span class="input-group-addon" id="basic-addon1" style="text-align: left">I have varified my email.</span>
+		</div><!-- /input-group -->
 		
-        </div><!-- /.modal-body -->
-		    <div class="modal-footer">
+        </div>
 		
-          <div class="dropdown" style="float: left">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Cancel <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              <li><a href="index.html">Return to Home Page</a></li>
-            </ul>
-
-        <!--<script>
-              $('.dropdown-toggle').dropdown()
-              $().dropdown('toggle')
-            </script>-->
-          </div>
+        <div class="modal-footer">
+		
+		  
+		  <div class="dropdown" style="float: left">
+		    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Cancel <span class="caret"></span>
+			</button>
+		    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+			  <li><a href="index.html">Return to Home Page</a></li>
+		    </ul>
+		  </div>
+		
 		
           <button type="button" class="btn btn-primary">Submit</button>
-          
-        </div><!-- /.modal-footer -->
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+
+</body>
+</html>
+
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 
